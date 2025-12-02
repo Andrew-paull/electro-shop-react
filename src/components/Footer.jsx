@@ -41,7 +41,7 @@ const Footer = () => {
                 <Zap className="w-6 h-6 text-background" />
               </div>
               <span className="text-xl font-bold font-display">
-                <span className="gradient-text">Tech</span>Store
+                <span className="gradient-text">Tech</span>hy
               </span>
             </Link>
             <p className="text-muted-foreground mb-6 max-w-sm">
@@ -118,7 +118,7 @@ const Footer = () => {
         {/* Bottom Bar */}
         <div className="mt-12 pt-8 border-t border-border flex flex-col md:flex-row items-center justify-between gap-4">
           <p className="text-muted-foreground text-sm">
-            © 2024 TechStore. All rights reserved.
+            © 2024 Techhy. All rights reserved.
           </p>
           <div className="flex gap-6 text-sm">
             <Link to="/privacy" className="text-muted-foreground hover:text-foreground transition-colors">
