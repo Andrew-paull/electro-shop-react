@@ -69,7 +69,7 @@ const About = () => {
             <span className="block gradient-text">Tech to You</span>
           </h1>
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-            Since 2020, TechStore has been your trusted destination for premium 
+            Since 2020, Techhy has been your trusted destination for premium 
             electronics and cutting-edge gadgets. We're passionate about technology 
             and committed to making it accessible to everyone.
           </p>
@@ -97,14 +97,14 @@ const About = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             <div>
-              <h2 className="section-title">Our Story</h2>
-              <div className="space-y-4 text-muted-foreground">
-                <p>
-                  TechStore was founded with a simple mission: to make premium 
-                  technology accessible to everyone. What started as a small 
-                  online shop has grown into a trusted destination for tech 
-                  enthusiasts worldwide.
-                </p>
+            <h2 className="section-title">Our Story</h2>
+            <div className="space-y-4 text-muted-foreground">
+              <p>
+                Techhy was founded with a simple mission: to make premium 
+                technology accessible to everyone. What started as a small 
+                online shop has grown into a trusted destination for tech 
+                enthusiasts worldwide.
+              </p>
                 <p>
                   We carefully curate our product selection, partnering only 
                   with reputable brands and manufacturers. Every product in 
@@ -166,7 +166,7 @@ const About = () => {
           <div className="text-center mb-12">
             <h2 className="section-title">Meet Our Team</h2>
             <p className="section-subtitle">
-              The people behind TechStore
+              The people behind Techhy
             </p>
           </div>
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">

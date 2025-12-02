@@ -31,7 +31,7 @@ const Navbar = () => {
                 <Zap className="w-6 h-6 text-background" />
               </div>
               <span className="text-xl font-bold font-display hidden sm:block">
-                <span className="gradient-text">Tech</span>Store
+                <span className="gradient-text">Tech</span>hy
               </span>
             </Link>
 
