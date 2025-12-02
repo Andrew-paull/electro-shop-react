@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { Link, useLocation } from 'react-router-dom';
-import { ShoppingCart, Menu, X, Search, Zap } from 'lucide-react';
+import { ShoppingCart, Menu, X, Search, Zap, User } from 'lucide-react';
 import { useCart } from '../context/CartContext';
 import SearchBar from './SearchBar';
 import CartSidebar from './CartSidebar';
@@ -51,7 +51,7 @@ const Navbar = () => {
             </div>
 
             {/* Actions */}
-            <div className="flex items-center gap-4">
+            <div className="flex items-center gap-2 sm:gap-4">
               <button
                 onClick={() => setIsSearchOpen(!isSearchOpen)}
                 className="p-2 rounded-lg hover:bg-secondary transition-colors"
@@ -70,6 +70,15 @@ const Navbar = () => {
                   </span>
                 )}
               </button>
+
+              {/* Login Button */}
+              <Link
+                to="/login"
+                className="hidden sm:flex items-center gap-2 px-4 py-2 rounded-lg bg-secondary hover:bg-secondary/80 transition-colors"
+              >
+                <User className="w-4 h-4" />
+                <span className="text-sm font-medium">Login</span>
+              </Link>
 
               {/* Mobile menu button */}
               <button
@@ -109,6 +118,16 @@ const Navbar = () => {
                   {link.label}
                 </Link>
               ))}
+              <div className="border-t border-border pt-2 mt-2">
+                <Link
+                  to="/login"
+                  onClick={() => setIsMenuOpen(false)}
+                  className="flex items-center gap-2 px-4 py-3 rounded-lg hover:bg-secondary transition-colors"
+                >
+                  <User className="w-5 h-5" />
+                  Login / Register
+                </Link>
+              </div>
             </div>
           </div>
         )}
