@@ -169,12 +169,15 @@
   }
 
   .product-card {
-    @apply glass-card-hover overflow-hidden group cursor-pointer;
+    @apply glass-card-hover overflow-hidden cursor-pointer;
   }
 
   .product-card-image {
     @apply w-full aspect-square object-cover transition-transform duration-500;
-    @apply group-hover:scale-110;
+  }
+
+  .product-card:hover .product-card-image {
+    @apply scale-110;
   }
 
   .category-card {
